@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yogender Upadhyay Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Yogender Upadhyay</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Finance\ Pictures.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Yogender Upadhyay</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Finance Profesional ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Finance Controller</h2>
+						<h2>Ogilvy and Mather Pvt Ltd.</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href=" https://www.linkedin.com/in/yogender-upadhyay-06784218a/" class="btn btn-primary py-3 px-4">Linkedin</a> 
+							<a href=" https://github.com/YogenderUpadhyay1995" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/Yogender.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Yogender Upadhyay</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Finance Controller</span></p>
+										<p><span class="title-s">Experience: </span> <span>11+ Years </span></p>
+										<p><span class="title-s">Address: </span> <span>Delhi NCR, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									
+									<span>MIS & Financial Reporting </span> <span class="pull-right">- Advanced</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Budgeting & Forecasting </span> <span class="pull-right">- Advanced</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Compliance & Internal Controls</span> <span class="pull-right">- Proficient </span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Financial Planning and Analysis </span> <span class="pull-right">- Proficient</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Results-driven Finance Controller with over 10 years of experience in budgeting, forecasting, financial analysis, and management reporting. 
+									Skilled in enhancing financial performance through process optimization, compliance excellence, and stakeholder collaboration. 
+									Skilled in leading cross-functional teams and implementing strategic initiatives to drive business growth.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Finance Controller </span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Finance &amp; Accounting - AI Enhanced Financial Strategy</span></li>
+									<li class="d-flex"><span>Education:</span> <span>ICWA, MA Economics, MBA - Finance (Pursing) </span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>Tools:</span> <span>Excel, SAP, Tally, Power BI, Python etc</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Reading, Travel, Teaching</span></li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Experienced Finance & Accounts Professional | Skilled in Budgeting, Financial Analysis, Strategic Planning, Corporate Finance, Financial Management & Reporting | Proficient in Python for Data Analysis & Visualization.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">February 2023-Present</span>
+						<h2>Finance Controller</h2>
+						<span class="position">Ogilvy and Mather Pvt Ltd</span>
+						<p class="mt-4">Ogilvy is a global creative communications agency under WPP, known for delivering iconic, culture‑changing ideas that drive brand impact across advertising, PR, consulting, experience, and health. 
+							<ul>
+								<li>Coordinate and oversee the preparation of budgets and forecasts, analyzing and reporting on variances.</li>
+								<li>Prepare and disseminate accurate and timely monthly financial statements</li>
+								<li>Review and approve necessary journal entries to maintain accurate financial and accounting records.</li>
+								<li>Manage all aspects of accounting operations and functions to ensure accuracy, compliance, and efficiency within the organization.</li>
+								<li>Develop management reports to provide insights into key business metrics and performance indicators.</li>
+								<li>Timely finalize TDS, monthly provisions, advance tax, and other statutory obligations.</li>
+								<li>Perform costing analysis for new proposals in alignment with company requirements.</li>
+								<li>Managing audit staff, implementing reporting changes, and communicating to upper management the outcomes of the audit.</li>
+								<li>Developing and documenting robust business and accounting policies to maintain internal control.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">March 2020- February 2023</span>
+						<h2>Deputy Finance Manager</h2>
+						<span class="position">ITC Limited</span>
+						<p class="mt-4">ITC Limited is a leading Indian conglomerate with diversified businesses in FMCG, agribusiness, paperboards & packaging, and IT solutions, anchored in sustainability leadership. 
+							<ul>
+								<li>Prepare projection reports, conduct financial analysis, and assist management in developing robust financial strategies.</li>
+								<li>Develop annual budgets, facilitate rolling forecast processes, and conduct cash flow analyses for the company.</li>
+								<li>Oversee all accounting operations and implement accounting policies to enhance internal control.</li>
+								<li>Manage organizational cash flow and regularly evaluate operational financial efficiency.</li>
+								<li>Deliver presentations with insightful analysis, actionable recommendations, and decision-framing.</li>
+								<li>Coordinate with the auditor team to ensure compliance with tax regulations and financial standards.</li>
+								<li>Identify variances from forecasts, budgets, and previous expenses, and propose improvement opportunities</li>
+								<li>Led engagement with government authorities on PLI and electricity subsidy matters, ensuring regulatory compliance through timely submission of documentation, resulting in the allocation of Rs 5 Crores subsidy to the company</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">November 2019 -March 2020</span>
+						<h2>Accountant</h2>
+						<span class="position">The Union</span>
+						<p class="mt-4">The Union is a century old global scientific NGO advancing lung health and ending tuberculosis worldwide through research, policy influence, and field action. 
+							<ul>
+								<li>Prepare and maintain accurate financial records , including but not limited to, general ledger entries, accounts payable, accounts receivable, and payroll processing.</li>
+								<li>Reconcile bank statements and ensure the accuracy of financial data.</li>
+								<li>Assist in the preparation of financial statements and reports.</li>
+								<li>Conduct financial analysis and provide management insights</li>
+								<li>Collaborate with other departments to streamline financial processes</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">September 2015 - August 2018</span>
+						<h2>Finance Assitant</h2>
+						<span class="position">Pinto M.P Assocaites</span>
+						<p class="mt-4">Pinto M. P. & Associates, established in Delhi, is a renowned Chartered Accountancy firm offering auditing, taxation, financial management, and consultancy services, with deep expertise in serving NGOs. 
+							<ul>
+								<li>Lead internal and statutory audit processes, ensuring accuracy, completeness, and compliance with regulatory requirements.</li>
+								<li>Develop audit plans and procedures, including risk assessment and testing methodologies, to effectively evaluate financial controls and processes.</li>
+								<li>Prepare detailed audit reports, documenting findings, recommendations, and corrective actions for management review.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2016</span>
+    					<h2>Bachelor of Commerce</h2>
+    					<span class="position">University of Delhi</span>
+						<p class="mt-4">Grade: 53%.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019</span>
+    					<h2>Cost Accountant</h2>
+    					<span class="position">Institute of Cost Accountant of India</span>
+						<p class="mt-4">Grade: 52%.</p>
+    				</div>
+    			</div>
+
+				<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2024</span>
+    					<h2>Master In Economics</h2>
+    					<span class="position">Lovely Professional University</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+    				</div>
+				</div>
+
+				<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">Pursing</span>
+    					<h2>Master In Business Adminstration (MBA) </h2>
+    					<span class="position">Amity University</span>
+    					<p class="mt-4">Grade: Pursing</p>
+    				</div>
+				</div>
+
+
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1wCgCcYtXiJyxZw875BfraV-asm2_QTnu/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Ghaziabad, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+91-9910722482</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">Yogender.upadhyay81@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1wCgCcYtXiJyxZw875BfraV-asm2_QTnu/view?usp=drive_link">resumelink</a></p>
+	          </div>
+          </div>
+
+
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
